@@ -1,0 +1,14 @@
+// CSCI 1550: HW 1, Problem 2 
+// Filename: hw1pr2.txt 
+// Name(s): Michael Vizner
+//
+// Task 1: Blow me away - says the paper airplane!
+
+type paper
+
+get paper
+fold paper in half horizontally
+fold both sides of paper inwards having the outside edge touch the fold line
+fold both sides towards the center with the newer outside edge touching the center fold
+fold both sides towards the center with the newer outside edge touching the center fold
+throw plane pointy side first at your teacher

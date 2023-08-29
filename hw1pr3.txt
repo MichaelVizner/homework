@@ -1,0 +1,44 @@
+# CSCI1550 hw1pr3
+# Filename: hw1pr3.txt
+# Name: Michael Vizner
+# Exercise 1: Binary <-> decimal conversions
+
+(a) 111001 to decimal (base 10)
+1+8+16+32=57
+(b) 00000111 to decimal
+1+2+4=7
+(c) 111 to decimal (sorry ... just seeing if you're still awake!)
+7
+(d) 11100111 to decimal 
+7+32+64+128+231
+
+(a) 2fab to decimal (base 10) ... this number is just too fabulous!
+11+160+3840+8192=12203
+(b) 417 to decimal
+7+8+256=271
+(c) 21201 to decimal (ternary!)
+1+18+27+162=208
+(d) +--0+- to decimal
+200120 OR 211021 6+9+486=501 OR 1+6+27+81+486=601
+
+(a) 7710 to binary
+2^12+2^11+2^10+2^9+2^4+2^3+2^2+2^1=1111000011110
+(b) 35110 in binary
+2^15+2^11+2^8+2^5+2^2+2^1=1000100100100110
+(c) 210 in binary
+2^7+2^6+2^4+2^1=1101001
+(d) 710 in binary 
+2^9+2^7+2^6+2^2+2^1= 1011000110
+
+(a) 215 to octal (base 8)
+3*8^2+2*8^1+7*8^0=327
+(b) 666 to hex (base 16)
+2*16^2+9*16^1+10*16^0= 29a
+
+(a) Convert the following sequence of 32 bits to decimal: 
+0 10010011 00111101000000000000000  
++ 1+2+16+128=147 32768+131072+262144+524288+1048576=1998848 1998848^20=1.036*10^106
+(b) Convert the following sequence of 32 bits to decimal: 
+1 01001111 11001100110000000000000
+- 1+2+4+16+64=87 8192+16384+131072+262144+2097152+4194304=6709248   6709248^-40=-8.571*10^274
+

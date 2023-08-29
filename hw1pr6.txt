@@ -1,0 +1,81 @@
+// CSCI 1550: HW 1, Problem 6
+// Filename: hw1pr6.txt 
+// Name: Michael Vizner
+//
+// Example Exercise #0: Baking brownies ... completely legal, I promise!
+Refer to the example in the linked document below.
+
+// Exercise #1
+
+as each person grabs a sock they sort them into sections by color subsections by size and further by pattern
+
+type sock
+type long_sock
+type short_sock
+
+listsock() sock1 sock2 sock3 sock4 sock5 sock6
+
+type white
+type black
+type grey
+
+type plain
+type patterned
+
+type pair
+
+listpair() pair1 pair2 pair3 pair4
+
+randomsock()
+sock1 = randomsock() : sock with white with plain
+sock2 = randomsock() : long_sock with grey with pattern
+sock3 = randomsock() : sock with white with plain
+sock4 = randomsock() : short_sock with black with plain
+sock5 = randomsock() : long_sock with grey with pattern
+sock6 = randomsock() : short_sock with black with plain
+
+integer x
+x=1
+integer i
+for i = 0; i < 4; i = i + 1
+    if listsock(i) == listsock(x)
+        set "pair"+i to listsock(i),listsock(x)
+    else
+        x=x+1
+
+output listpair()
+
+
+Exercise 2
+
+divide by 2 untill 0 is output
+
+integer d 
+integer b  
+integer q
+
+integer s
+integer i
+s=1
+i=1
+integer array(?) remainder
+remainder.size = i
+
+d = get input
+b = get input
+
+for d <= 0
+    d / b = q
+    d - q = remainder(s)
+    d = q
+    remainder.size = i+1
+
+integer array(?) conversion
+conversion.size = i 
+
+integer x
+
+for x = 0; x < i; x = x + 1
+    remainder(s-x) = conversion(x+1)
+
+output conversion 
